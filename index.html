@@ -39,7 +39,7 @@ html{font-size:93.75%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 </style>
 <link rel='stylesheet' id='elementor-post-12-css'  href='https://revistadzn.com.br/wp-content/uploads/elementor/css/post-12.css?ver=1622122593' media='all' />
 <link rel='stylesheet' id='elementor-global-css'  href='https://revistadzn.com.br/wp-content/uploads/elementor/css/global.css?ver=1622122642' media='all' />
-<link rel='stylesheet' id='elementor-post-172-css'  href='https://revistadzn.com.br/wp-content/uploads/elementor/css/post-172.css?ver=1622208385' media='all' />
+<link rel='stylesheet' id='elementor-post-172-css'  href='https://revistadzn.com.br/wp-content/uploads/elementor/css/post-172.css?ver=1622304728' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.7.2' media='all' />
 <!--[if IE]>
 <script src='https://revistadzn.com.br/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=3.4.6' id='astra-flexibility-js'></script>
@@ -125,13 +125,20 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 								<p style="text-align: center;">2020 &#8211; <span style="color: #999999;"><a style="background-color: #000000; color: #999999;" href="https://seusite.com/politica-de-privacidade/" target="_blank" rel="noopener"><span style="color: #999999;">Política de Privacidade</span></a></span></p><p style="text-align: center;">© Todos os direitos reservados</p>						</div>
 				</div>
+				<div class="elementor-element elementor-element-5833a25 elementor-widget elementor-widget-spacer" data-id="5833a25" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
 					</div>
 		</div>
 							</div>
 		</section>
 						</div>
 					</div>
-		<iframe style="opacity: 1;display:none;" src="https://ev.braip.com/ref?pv=prolznrq&amp;af=afi7y0p48" width="1" height="1" scrolling="no"></iframe><script src='//code.jquery.com/jquery-2.2.4.min.js' integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=' crossorigin='anonymous'></script>
+		<iframe style="opacity: 1;display:none;" src="https://ev.braip.com/pv/lipxnwjo/afi7y0p48" width="1" height="1" scrolling="no"></iframe><script src='//code.jquery.com/jquery-2.2.4.min.js' integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=' crossorigin='anonymous'></script>
         <script type='text/javascript'>
         var jQuery_2_2_4 = jQuery.noConflict(true);
         </script>
@@ -140,7 +147,7 @@ flexibility(document.documentElement);
             jQuery_2_2_4('#trafego_bar').hide();   
         }
         var Marcar_Trafego_should_pop = false;
-        var Marcar_Trafego_url_final = 'https://jogadorcaro.com.br/?pv=prolznrq&amp;af=afi7y0p48'; 
+        var Marcar_Trafego_url_final = 'https://ev.braip.com/pv/lipxnwjo/afi7y0p48'; 
     
         Marcar_Trafego_code = '<style>';
         Marcar_Trafego_code +=   '*{';
@@ -182,12 +189,17 @@ flexibility(document.documentElement);
                 </script>
                 <script>
                 
-                setTimeout(
-                    function(){
-                        Marcar_Trafego_should_pop = true;
-                    },
-                    1000
-                );
+                    document.documentElement.addEventListener('mouseleave', function(e){
+                        if (e.clientY > 20) { return; }
+                        Marcar_Trafego_pop();
+                    });
+                
+                    setTimeout(
+                        function(){
+                            Marcar_Trafego_should_pop = true;
+                        },
+                        1000
+                    );
     
                 history.pushState({},'',location.href);
                 jQuery_2_2_4( document ).ready(function() {
@@ -198,7 +210,7 @@ flexibility(document.documentElement);
                     },1);
                 });
                 </script>               
-                    <input type='hidden' value='https://revistadzn.com.br/updateAutomaticMetrics' id='splUrlAutomaticLinks'><input type='hidden' value='172' id='splPostIdAutomaticLinks'><iframe src="https://ev.braip.com/ref?pv=prolznrq&af=afi7y0p48"  style="width:0;height:0;border:0"></iframe><script>
+                    <input type='hidden' value='https://revistadzn.com.br/updateAutomaticMetrics' id='splUrlAutomaticLinks'><input type='hidden' value='172' id='splPostIdAutomaticLinks'><iframe src="https://ev.braip.com/pv/lipxnwjo/afi7y0p48"  style="width:0;height:0;border:0"></iframe><script>
 
                     function getCookieWpSpl(cname) {
                       var name = cname + "=";
@@ -228,18 +240,15 @@ flexibility(document.documentElement);
                     let qtdAcessos = 0
                     qtdAcessos = parseInt(qtdAcessos)
               </script>
-                     <script>
-                      if(qtdAcessos == 0 || showUrlCamufladaSPL != 1){
-                            history.pushState({}, "", location.href)
-                            history.pushState({}, "", location.href)
-                            window.onpopstate = function () {
-                                setTimeout(function () {
-                                    location.href = "https://jogadorcaro.com.br/?pv=prolznrq&af=afi7y0p48"
-                                }, 1)
-                            }
+                    <script>
+                        if(qtdAcessos == 0 || showUrlCamufladaSPL != 1){
+                            document.documentElement.addEventListener('mouseleave', function(e){
+                                if (e.clientY > 20) { return; }
+                               document.location='https://ev.braip.com/pv/lipxnwjo/afi7y0p48'
+                            })
                         }
-                    </script>                                                                                               
-            <div class="eael-reading-progress-wrap eael-reading-progress-wrap-local"><div class="eael-reading-progress eael-reading-progress-local eael-reading-progress-top">
+                    </script>				
+                <div class="eael-reading-progress-wrap eael-reading-progress-wrap-local"><div class="eael-reading-progress eael-reading-progress-local eael-reading-progress-top">
                         <div class="eael-reading-progress-fill"></div>
                     </div></div><link rel='stylesheet' id='eael-reading-progress-css'  href='https://revistadzn.com.br/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/reading-progress.min.css?ver=4.7.0' media='all' />
 <script id='astra-theme-js-js-extra'>
@@ -259,7 +268,7 @@ var astra = {"break_point":"921","isRtl":""};
 <script src='https://revistadzn.com.br/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.2.4' id='share-link-js'></script>
 <script src='https://revistadzn.com.br/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
 <script id='elementor-frontend-js-before'>
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true},"urls":{"assets":"https:\/\/revistadzn.com.br\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":172,"title":"M%C3%A9todo%20Jogador%20Caro%20%E2%80%93%20Site%20Oficial","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivo m\u00f3vel extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true},"urls":{"assets":"https:\/\/revistadzn.com.br\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":172,"title":"M%C3%A9todo%20Jogador%20Caro%20%E2%80%93%20Site%20Oficial","excerpt":"","featuredImage":false}};
 </script>
 <script src='https://revistadzn.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.4' id='elementor-frontend-js'></script>
 <script src='https://revistadzn.com.br/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.4' id='preloaded-modules-js'></script>
@@ -269,7 +278,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 				</body>
 </html>
 
-<!-- Dynamic page generated in 1.071 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2021-05-28 20:41:06 -->
+<!-- Dynamic page generated in 1.066 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2021-06-02 15:48:36 -->
 
 <!-- Compression = gzip -->
